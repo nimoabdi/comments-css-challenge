@@ -1,0 +1,72 @@
+body {
+    background-color: hsl(239, 57%, 85%);
+    font-family: 'Rubik';
+    font-size: 16px;
+    color: hsl(211, 10%, 45%);
+    width: 1311px;
+    margin: 40px auto;
+}
+.comment {
+    background-color: hsl(0, 0%, 100%);
+    margin: 36px 313px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.commentDetails {
+    display: inline-block;
+}
+.replyBtn {
+    border: 0px;
+    background-color: inherit;
+    margin: 8px 1px;
+    float: right;
+    color: hsl(238, 40%, 52%);
+}
+.replyBtn:hover {
+   opacity: .5;
+}
+.replyImg {
+    margin: -2px 7px;
+}
+.reply {
+    background-color: hsl(0, 0%, 100%);
+    margin: 39px 310px 41px 417px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 561px;
+}
+.commentAvatar {
+    width: 35px;
+    float: left;
+}
+.username {
+    float: left;
+    padding-left: 15px;
+    padding-top: 10px;
+    color: hsl(212, 24%, 26%);
+}
+.you {
+    float: left;
+    background-color: hsl(238, 40%, 52%);
+    color: hsl(228, 33%, 97%);
+    padding: 2px 5px;
+    margin-left: 11px;
+    margin-top: 8px;
+    border-radius: 3px;
+}
+.timeAgo {
+    float: right;
+    padding-left: 20px;
+    padding-top: 10px;   
+}
+.atPerson {
+    color: hsl(238, 40%, 52%);
+}
+/* .deleteButton {
+    background-color: hsl(360, 100%, 66%, 1);
+    margin: 39px 310px 41px 410px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 560px;
+} */
+    
